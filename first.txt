@@ -1,1 +1,164 @@
+
+SANJEEV SAINI@SANJEEV MINGW64 ~
+$ cd G:
+
+SANJEEV SAINI@SANJEEV MINGW64 /g
+$ mkdir darshangit
+
+SANJEEV SAINI@SANJEEV MINGW64 /g
+$ dir
+$RECYCLE.BIN
+7e050b01d591f7203b458c8f5b72c7
+darshangit
+ec51bd9903f4b8cedbeadeed40
+FFOutput
+Harry\ potter\ novel\ series
+IVSA3Setup.rar
+L1.pptx
+L2.pptx
+LJM129-M134_UWWL_4-1_U_3_1_Full_WebPack_44.3.2667.exe
+New\ folder
+softwares
+study
+sys
+System\ Volume\ Information
+taniya\ karnani(resume).docx
+Windows10Upgrade
+
+SANJEEV SAINI@SANJEEV MINGW64 /g
+$ cd darshangit
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ touch first.txt
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ dir
+first.txt
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ notepad first.txt
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ cat first.txt
 this is my first txt file in my very first repository
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit
+$ git init
+Initialized empty Git repository in G:/darshangit/.git/
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        first.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git add .
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git add .
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   first.txt
+
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git commit -m 'first commit first file added'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'SANJEEV SAINI@SANJEEV.(none)')
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git cofig --global user.email "darshansaini683@gmail.com"
+git: 'cofig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git config --global user.name "darshansaini"
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git config --global user.email "darshansaini683@gmail.com"
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ omit --global to set the identity oly in this repository.
+
+bash: omit: command not found
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git commit -m 'first commit txt file added'
+[master (root-commit) 33b9749] first commit txt file added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 first.txt
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git log
+commit 33b9749c06e952ebc4c07be7424593e4872712ec (HEAD -> master)
+Author: darshansaini <darshansaini683@gmail.com>
+Date:   Thu May 23 03:58:22 2019 -0300
+
+    first commit txt file added
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git log --oneline
+33b9749 (HEAD -> master) first commit txt file added
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git log --oneline -3
+33b9749 (HEAD -> master) first commit txt file added
+
+SANJEEV SAINI@SANJEEV MINGW64 /g/darshangit (master)
+$ git remote
